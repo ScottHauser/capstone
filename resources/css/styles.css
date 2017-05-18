@@ -20,7 +20,7 @@ body {
 .banner-main {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 65%;
   justify-content: center;
   align-content: flex-start;
   margin: 32px 24px;
@@ -58,7 +58,7 @@ body {
   .practice-main {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 65%;
     height: auto;
     justify-content: center;
     align-items: flex-start;
@@ -71,9 +71,10 @@ body {
   .practice-side {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 35%;
     align-items: flex-start;
     justify-content: flex-start;
+    padding-top: 24px;
   }
   .practice-side-item {
     display: flex;
@@ -84,12 +85,13 @@ body {
   }
 
   .practice-side-left {
-    width: 30%;
-    display: block;
-    margin-right: 2rem;
+    width: 35%;
+    display: block;;
   }
   .practice-side-right {
+    width: 65%;
     display: block;
+    margin-left: 2rem;
     text-align: left;
   }
   .practice-side-left img {
