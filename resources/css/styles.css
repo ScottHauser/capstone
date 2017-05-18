@@ -1,0 +1,201 @@
+body {
+  font-family: helvetica, sans-serif;
+}
+.flex {
+  display: flex;
+}
+.container {
+  margin: auto;
+  max-width: 100%;
+}
+
+/* styles for top section */
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.banner-main {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: center;
+  align-content: flex-start;
+  margin: 32px 24px;
+}
+.banner-main img {
+  width: 100%;
+  height: auto;
+}
+.banner-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 35%;
+  margin-left: 16px;
+  padding-top: 32px;
+}
+/*.banner-side-item img {
+  width: 35%;
+  height: auto;
+  display: inline-block;
+  padding-left: 16px;
+}
+.banner-side-item h2, h3, p {
+  display: inline-block;
+}*/
+
+/* styles for middle section; matches styles for 'thesis' section*/
+  .practice {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    padding-top: 32px;
+  }
+  .practice-main {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 24px;
+  }
+  .practice-main img {
+    width: 100%;
+    height: auto;
+  }
+  .practice-side {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .practice-side-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+  }
+
+  .practice-side-left {
+    width: 30%;
+    display: block;
+    margin-right: 2rem;
+  }
+  .practice-side-right {
+    display: block;
+    text-align: left;
+  }
+  .practice-side-left img {
+    width: 100%; !important;
+    height: auto;
+  }
+
+/* styles for section with grid of images and text blocs */
+  .learning {
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding-top: 32px;
+  }
+  .learning-grid {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+  .learning-grid-item {
+    display: inline-block;
+    width: 30%;
+    background-color: white;
+    color: black;
+    text-align: left;
+    margin: 32px 16px;
+    padding: 16px auto 24px 16px;
+  }
+  .learning-grid-item img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+  .learning-grid-item h2, h3 {
+  padding-left: 16px;
+}
+
+.nameplate {
+text-align: center;
+}
+
+/* header section */
+header {
+  background-color: gray;
+  height: 64px;
+  padding-left: 24px;
+}
+header .flex {
+  justify-content: flex-end;
+}
+.flex {
+  display: flex;
+}
+.container: {
+  width: 960px;
+margin: auto;
+}
+nav {
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: black;
+font-size: 1rem;
+}
+.menu ul li {
+display: inline;
+margin-right: 2rem;
+text-decoration: none;
+list-style-type: none;
+}
+
+/* from other project
+header .flex {
+justify-content: flex-end;
+}
+.flex {
+display: flex;
+}
+.container {
+width: 960px;
+margin: auto;
+}
+
+nav {
+padding: 1rem 0;
+background-color: cadetblue;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.menu ul li {
+display: inline;
+padding: 0 1rem;
+margin-right: 2rem;
+}
+*/
+
+/* footer section */
+
+footer {
+  background-color: gray;
+  padding-left: 24px;
+  border-top: 1px solid black;
+}
